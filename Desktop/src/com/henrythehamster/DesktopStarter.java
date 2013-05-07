@@ -10,6 +10,6 @@ public class DesktopStarter {
         cfg.useGL20 = true;
         cfg.width = 800;
         cfg.height = 480;
-        new LwjglApplication(new MyGame(), cfg);
+        new LwjglApplication(new Bridgehead(), cfg);
     }
 }
